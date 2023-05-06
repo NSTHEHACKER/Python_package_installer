@@ -21,10 +21,9 @@ packages=(
 )
 
 # Display the list of package names
-echo "The following packages will be installed:"
+echo "<--- The following packages will be installed: --->"
 printf '%s\n' "${packages[@]}"
 
-# Install packages with progress bar
 count=0
 total=${#packages[@]}
 for package in "${packages[@]}"
