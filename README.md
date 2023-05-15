@@ -8,7 +8,7 @@ This Bash script can be used to automatically download and install a list of Pyt
 2. Save the changes to the script.
 3. Open a command prompt or terminal window.
 4. Navigate to the directory containing the script.
-5. Run the script using the command `./install_packages.sh`.
+5. Run the script using the command `./packages.sh`.
 
 Note: You may need to make the script executable before running it. To do this, use the command `chmod +x install_packages.sh`.
 
